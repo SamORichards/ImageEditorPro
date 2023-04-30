@@ -40,16 +40,16 @@ SignatureController _controller =
 class ImageEditorPro extends StatefulWidget {
   final Color appBarColor;
   final Color bottomBarColor;
-  final Directory pathSave;
-  final File defaultImage;
-  final double pixelRatio;
+  final Directory? pathSave;
+  final File? defaultImage;
+  final double? pixelRatio;
 
   ImageEditorPro({
     required this.appBarColor,
     required this.bottomBarColor,
-    required this.pathSave,
-    required this.defaultImage,
-    required this.pixelRatio,
+    this.pathSave,
+    this.defaultImage,
+    this.pixelRatio,
   });
 
   @override
