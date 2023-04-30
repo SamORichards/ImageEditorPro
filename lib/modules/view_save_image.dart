@@ -5,7 +5,7 @@ import 'package:firexcode/firexcode.dart';
 class ImageView extends StatefulWidget {
   final File file;
 
-  const ImageView({Key key, this.file}) : super(key: key);
+  const ImageView({super.key, required this.file});
   @override
   _ImageViewState createState() => _ImageViewState();
 }

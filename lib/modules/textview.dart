@@ -3,17 +3,17 @@ import 'package:firexcode/firexcode.dart';
 class TextView extends StatefulWidget {
   final double left;
   final double top;
-  final Function ontap;
+  final void Function() ontap;
   final Function(DragUpdateDetails) onpanupdate;
   final Map mapJson;
   const TextView({
-    Key key,
-    this.left,
-    this.top,
-    this.ontap,
-    this.onpanupdate,
-    this.mapJson,
-  }) : super(key: key);
+    super.key,
+    required this.left,
+    required this.top,
+    required this.ontap,
+    required this.onpanupdate,
+    required this.mapJson,
+  });
   @override
   _TextViewState createState() => _TextViewState();
 }

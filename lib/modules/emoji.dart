@@ -3,18 +3,18 @@ import 'package:firexcode/firexcode.dart';
 class EmojiView extends StatefulWidget {
   final double left;
   final double top;
-  final Function ontap;
+  final void Function() ontap;
   final Map mapJson;
   final Function(DragUpdateDetails) onpanupdate;
 
   const EmojiView({
-    Key key,
-    this.left,
-    this.top,
-    this.ontap,
-    this.onpanupdate,
-    this.mapJson,
-  }) : super(key: key);
+    super.key,
+    required this.left,
+    required this.top,
+    required this.ontap,
+    required this.onpanupdate,
+    required this.mapJson,
+  });
   @override
   _EmojiViewState createState() => _EmojiViewState();
 }

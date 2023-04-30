@@ -2,13 +2,16 @@ import 'package:firexcode/firexcode.dart';
 
 class BottomBarContainer extends StatelessWidget {
   final Color colors;
-  final Function ontap;
+  final void Function() ontap;
   final String title;
   final IconData icons;
 
   const BottomBarContainer(
-      {Key key, this.ontap, this.title, this.icons, this.colors})
-      : super(key: key);
+      {super.key,
+      required this.ontap,
+      required this.title,
+      required this.icons,
+      required this.colors});
   @override
   Widget build(BuildContext context) {
     return xColumnCC
