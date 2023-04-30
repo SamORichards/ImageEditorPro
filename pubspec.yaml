@@ -9,26 +9,26 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
-  zoom_widget: ^2.0.0
-  font_awesome_flutter: ^9.0.0
-  image_picker: ^0.8.6
-  path_provider: ^2.0.1
-  permission_handler: ^10.2.0
-  dio: ^4.0.0
-  screenshot: ^1.2.3
-  signature: ^5.0.0
-  flutter_colorpicker: ^1.0.3
+  cupertino_icons:
+  zoom_widget:
+  font_awesome_flutter:
+  image_picker:
+  path_provider:
+  permission_handler:
+  dio:
+  screenshot:
+  signature:
+  flutter_colorpicker:
   firexcode:
     git:
       url: https://github.com/SamORichards/FireXcode.git
 
   flutter_web_plugins:
     sdk: flutter
-  collection: ^1.15.0
+  collection:
 
 dev_dependencies:
-  pedantic: ^1.9.2
+  pedantic:
 
   flutter_test:
     sdk: flutter
