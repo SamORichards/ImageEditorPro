@@ -20,10 +20,11 @@ packages:
   animated_interpolation:
     dependency: transitive
     description:
-      name: animated_interpolation
-      sha256: "55d4cd2d31ffb3b78e1243a317de855880165a70c0ce077200dc61f798342938"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: master
+      resolved-ref: ac6db1c4dea5f269bb7f11064bbfde39a2f7dc3d
+      url: "https://github.com/Sar777/animated_interpolation.git"
+    source: git
     version: "0.3.2"
   archive:
     dependency: transitive
@@ -113,6 +114,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0"
+  cross_file:
+    dependency: transitive
+    description:
+      name: cross_file
+      sha256: "0b0036e8cccbfbe0555fd83c1d31a6f30b77a96b598b35a5d36dd41f718695e9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.3+4"
   crypto:
     dependency: transitive
     description:
@@ -172,11 +181,12 @@ packages:
   firexcode:
     dependency: "direct main"
     description:
-      name: firexcode
-      sha256: dfbbea94ff799f36ca9304540a014899f9637e512e7be121452074e24f5ad8c5
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.5"
+      path: "."
+      ref: HEAD
+      resolved-ref: c4cda5b20ae96c696e2df707c4c0240b64b48b41
+      url: "https://github.com/SamORichards/FireXcode.git"
+    source: git
+    version: "1.0.8"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -186,10 +196,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_colorpicker
-      sha256: e69dc0ccf69d394e5c207d050bafa2ce1eb9b6bb6729f2b9f5833000709710b9
+      sha256: "458a6ed8ea480eb16ff892aedb4b7092b2804affd7e046591fb03127e8d8ef8b"
       url: "https://pub.dev"
     source: hosted
-    version: "0.4.0"
+    version: "1.0.3"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:
@@ -228,10 +238,10 @@ packages:
     dependency: transitive
     description:
       name: grapheme_splitter
-      sha256: "25691eca8e07b92050a972a7ca4687eff6f381cddfd1ea12b792abf9dfb0ee97"
+      sha256: "5a1e352826609e0526f82c3bde82f502d210170f0a035ffa1c3ee74d9dee46bd"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   http:
     dependency: transitive
     description:
@@ -260,26 +270,42 @@ packages:
     dependency: "direct main"
     description:
       name: image_picker
-      sha256: "5c18ae74741cd5f4d474314e6022184e270181a29cfb51b77c1abdfad89e2a1c"
+      sha256: "3da954c3b8906d82ecb50fd5e2b5401758f06d5678904eed6cbc06172283a263"
       url: "https://pub.dev"
     source: hosted
-    version: "0.7.4"
+    version: "0.8.7+4"
+  image_picker_android:
+    dependency: transitive
+    description:
+      name: image_picker_android
+      sha256: "7d2b25e0aec884495d782bb60cd09f779a92370035374c5ec622d09782ac68fe"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.8.6+10"
   image_picker_for_web:
     dependency: transitive
     description:
       name: image_picker_for_web
-      sha256: "3a19a450114c989183d82345afdfb570056cdffe889f4e75539d558382f7bdbc"
+      sha256: "98f50d6b9f294c8ba35e25cc0d13b04bfddd25dbc8d32fa9d566a6572f2c081c"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "2.1.12"
+  image_picker_ios:
+    dependency: transitive
+    description:
+      name: image_picker_ios
+      sha256: a1546ff5861fc15812953d4733b520c3d371cec3d2859a001ff04c46c4d81883
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.8.7+3"
   image_picker_platform_interface:
     dependency: transitive
     description:
       name: image_picker_platform_interface
-      sha256: a215b240f605e616c76ce8ee3ac792726238a4b416c4b7f5c596f72bdb6e8df1
+      sha256: "1991219d9dbc42a99aff77e663af8ca51ced592cd6685c9485e3458302d3d4f8"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.0"
+    version: "2.6.3"
   js:
     dependency: transitive
     description:
@@ -291,11 +317,12 @@ packages:
   json_ast:
     dependency: transitive
     description:
-      name: json_ast
-      sha256: cba439aec935efdb2ff433654fbe7f9651b9b09a343f531e84e6b6a7ca5a5819
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.5"
+      path: "."
+      ref: HEAD
+      resolved-ref: "1564d08b9641986e7a57f7e15923119cd9e6a45e"
+      url: "https://github.com/matnex-mix/json_ast.git"
+    source: git
+    version: "1.0.6"
   matcher:
     dependency: transitive
     description:
@@ -444,10 +471,10 @@ packages:
     dependency: transitive
     description:
       name: plugin_platform_interface
-      sha256: c2c49e16d42fd6983eb55e44b7f197fdf16b4da7aab7f8e1d21da307cad3fb02
+      sha256: "6a2128648c854906c53fa8e33986fc0247a1116122f9534dd20e3ab9e16a32bc"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "2.1.4"
   process:
     dependency: transitive
     description:
@@ -476,18 +503,18 @@ packages:
     dependency: "direct main"
     description:
       name: screenshot
-      sha256: "3b96c5dd9013abc328120fbb9c2721749e30710e43ed7ad6ad57aa397fabdd63"
+      sha256: "30bb9fade6eb2578a1fc2e84f6b184141fc86883cda10988d4500ff00eb728e2"
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.0"
+    version: "1.3.0"
   signature:
     dependency: "direct main"
     description:
       name: signature
-      sha256: "303c62ec05f01cbfd8afc1a1fea9d5cb6cd898fd2c1f0b7b320107a46aae4b27"
+      sha256: "0bf9adb5d95869a3441f8ffe62053d026c1b30ad86a5ece8f427f9af3ec13a3a"
       url: "https://pub.dev"
     source: hosted
-    version: "4.0.2"
+    version: "5.1.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -614,5 +641,5 @@ packages:
     source: hosted
     version: "2.0.0"
 sdks:
-  dart: ">=2.18.0 <3.0.0"
-  flutter: ">=2.8.0"
+  dart: ">=2.18.4 <3.0.0"
+  flutter: ">=3.3.0"
